@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME             => 'NIST::CPE',
-    AUTHOR           => q{Andi Rowley <andi.rowley@c9h.com>},
+    AUTHOR           => q{Andi Rowley <redacted@c9h.com>},
     VERSION_FROM     => 'lib/NIST/CPE.pm',
     ABSTRACT_FROM    => 'lib/NIST/CPE.pm',
     LICENSE          => 'artistic_2',
@@ -18,8 +18,7 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        #'ABC'              => 1.6,
-        #'Foo::Bar::Module' => 5.0401,
+        #'NIST::CPE::Module' => 0.01,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'NIST-CPE-*' },

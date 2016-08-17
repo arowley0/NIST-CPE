@@ -6,7 +6,9 @@ use warnings;
 
 =head1 NAME
 
-NIST::CPE - The great new NIST::CPE!
+NIST::CPE - Module for reading and manipulating CPE related elements
+of NIST official-cpe-dictionary_v2.3.xml
+
 
 =head1 VERSION
 
@@ -19,39 +21,19 @@ our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
+This module allows you to create, read, and update CPEs
+for use with the NIST database. 
 
     use NIST::CPE;
 
     my $foo = NIST::CPE->new();
     ...
 
-=head1 EXPORT
-
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
 =head1 SUBROUTINES/METHODS
-
-=head2 function1
-
-=cut
-
-sub function1 {
-}
-
-=head2 function2
-
-=cut
-
-sub function2 {
-}
 
 =head1 AUTHOR
 
-Andi Rowley, C<< <andi.rowley at c9h.com> >>
+Andi Rowley, C<< <redacted@c9h.com> >>
 
 =head1 BUGS
 
