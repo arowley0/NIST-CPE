@@ -33,7 +33,7 @@ for use with the NIST database.
 
 =head1 AUTHOR
 
-Andi Rowley, C<< <redacted@c9h.com> >>
+Andi Rowley, C<< <redacted@c9h.org> >>
 
 =head1 BUGS
 
